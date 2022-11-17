@@ -1,6 +1,6 @@
 package inherit;
 
-public class akademikpersonel extends person{
+public abstract class akademikpersonel extends person{
 	protected String departman;
 
 	protected akademikpersonel(String adi, String soyadi, String email, String departman) {
@@ -19,5 +19,5 @@ public class akademikpersonel extends person{
 	protected String giris() {
 		return "Fakülte Kapısından Giriş yaptı.";
 	}
-
+	protected abstract String cikis(); 
 }

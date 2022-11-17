@@ -18,6 +18,8 @@ public class hoca extends akademikpersonel{
 	protected String giris() {
 		return "Fakülte A kapısından Giriş yaptı.";
 	}
-
+	protected String cikis() {
+		return "Fakülte A kapısından Çıkış yaptı.";
+	}
 
 }

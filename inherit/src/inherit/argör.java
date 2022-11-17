@@ -15,6 +15,10 @@ public class argör extends akademikpersonel{
 		protected void setUnvanArgor(String unvanArgor) {
 			this.unvanArgor = unvanArgor;
 		}
+		protected String cikis() {
+			return "Fakülte B kapısından Çıkış yaptı.";
+		}
+
 		
 
 }
